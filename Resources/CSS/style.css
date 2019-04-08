@@ -20,12 +20,7 @@ div {
   display: block;
 }
 
-.item span {
-  display: block;
-  font-weight: bold;
-  padding: 5px;
-  text-align: center;
-}
+
 
 h2 {
   padding: 10px;
@@ -69,6 +64,13 @@ nav span {
     opacity: 0.9;
     width: 1200px;
     margin: auto;
+}
+
+.item span {
+  display: block;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
 }
 
 #mission {
@@ -116,7 +118,7 @@ div .image-content {
   padding: 10px;
 }
 
-/*Location*/
+/*Locations*/
 
 #locations {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
@@ -129,7 +131,7 @@ div .image-content {
 .address {
     width: 300px;
     height: 300px;
-    opacity: 1.0;
+    opacity: 1;
     padding: 10px;
     margin: 5px 20px;
     background-color: black;
@@ -161,12 +163,10 @@ div .image-content {
   width: 1270px;
   position:relative;
   top: 60px;
-  border: 2px solid red;
 }
 
 footer h5 {
   margin: 30px 0;
-  border: 2px solid yellow;
 }
 
 h5#copyright {
